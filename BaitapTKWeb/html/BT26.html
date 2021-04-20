@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap" rel = "stylesheet">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <!-- <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap" rel = "stylesheet"> -->
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+            width: 100%;
+        }
+        #clock{
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            position: absolute;
+            font-size: 9vw;
+            color:white;
+            text-align: center;
+            margin-top: 18%;
+        }
+        .container{
+            width: 100%;
+            height: 1080px;
+            position: relative  ;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        h1{
+            width: 100%;
+            margin-top: 10%;
+            position: absolute;
+            font-size: 8vw;
+            font-weight:lighter;
+            text-align: center;
+            color: white;
+            letter-spacing: -5px;
+            text-transform: uppercase;
+        }
+    </style>
+    <script>
+        function realtimeClock() {
+            var d = new Date();
+            var h = d.getHours();
+            var m = d.getMinutes();
+            var s = d.getSeconds();
+
+            var amPm = (h > 12) ? "PM" : "AM";
+
+            h = (h>12) ? (h-12) : h;
+
+            h = ("0" + h).slice(-2);
+            m = ("0" + m).slice(-2);
+            s = ("0" + s).slice(-2);
+
+            document.getElementById("clock").innerHTML =
+            h + " : "+  m+" : "+ s + " : " + amPm ;
+
+            var l = setTimeout(realtimeClock,500);
+        }
+    </script>
+</head>
+
+
+<body onload="realtimeClock()">
+    <div class="container">
+        <h1>realtime clock</h1>
+        <div id="clock"></div>
+        <img src="../image/realclock.jpg" alt="">
+    </div>
+</body>
+</html>

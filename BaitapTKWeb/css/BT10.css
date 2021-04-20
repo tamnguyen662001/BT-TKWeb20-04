@@ -1,0 +1,41 @@
+
+#menu{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    border:crimson double 5px;
+    background-image: url(/WebDesign/Image/h4_83f9c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style-type: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    font-size: 17px;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+#item{
+    display: flex;
+    /* list-style-type: none; */
+    padding: 0;
+}
+.img{
+    margin-top: 5px;
+   height: 80px;
+   width: 120px;
+   margin-left: 5px;
+   border:orangered solid 2px;
+}
+#x{
+    text-align: left;
+    font-size: 20px;
+}

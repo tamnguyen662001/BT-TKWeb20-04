@@ -1,0 +1,29 @@
+#menu{
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    width: 400px;
+    border: rgb(9, 42, 150) double 5px;
+    background-image: url(/WebDesign/Image/h4_83f9c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blue;
+}
+#menu__head{
+    margin: 0;
+    padding: 0px 20px;
+}
+#menu__title{
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    color: white;
+}
+#menu__title__head{
+    color: red;
+    font-weight: bold;
+}
+p{
+    float:right;
+    margin: 0px;
+}

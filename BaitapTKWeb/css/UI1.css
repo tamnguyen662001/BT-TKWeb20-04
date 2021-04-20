@@ -1,0 +1,231 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.grid{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* background-color: #f0ede9; */
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --white:#fff;
+    --yellow:#fbe345;
+    --black: #181818;
+    --background:#f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header{
+    min-height: 300px;
+
+}
+.menu__top{
+    width: 1000px;
+    height: 50px;
+    background: var(--black);
+    /* position: fixed; */
+}
+.listitem{
+    list-style-type: none;
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;
+    /* text-overflow: ; */
+}
+.item--yellow{
+    background: var(--yellow);
+    color: var(--black);
+}
+.itemmenu ul{
+    display: flex;
+}
+.item{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 600px;
+    font-size: 1rem;
+    padding:0 20px;
+    position: relative;
+}
+
+.item:hover{
+    background: var(--white);
+    transition: linear 0.4s;
+    color: var(--black);
+    cursor:pointer;
+}
+
+
+.banner__top{
+    height: 250px;
+    border-bottom: var(--white) solid 2px;
+    border-top: var(--white) solid 2px;
+}
+.banner__top img{
+    height: 246px;
+    width: 1000px;
+    /* margin-top: 5px; */
+}
+/* menu con và xửu lí xuất hiện menu con */
+.item .submenu{
+    display: table;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    background: var(--black);
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    color:var(--white);
+}
+.item:hover .submenu{
+    display: block;
+}
+.item .submenu .subitem{
+    display: block;
+}
+.item .subitem:hover{
+    background: var(--white);
+    color: var(--black);
+    transition: ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#container{
+    min-height: 800px;
+    height: 1500px;
+    width: 750px;
+
+    background: var(--background);
+    float: left;
+}
+.mainbody{
+    padding: 10px;
+    /* border-bottom: var(--yellow) solid 2px; */
+}
+.content img{
+    padding:  20px 65px;
+} 
+.share span i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+#sidebar{
+    height: 1500px;
+    width: 250px;
+    background: var(--background);
+    float: left;
+}
+.search{
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+}
+.search .input{
+    height: 40px;
+    outline: none;
+    /* border-bottom: var(--black) solid 1px; */
+    padding-left: 20px;
+    /* background: var(--yellow); */
+    line-height: 50px;
+}
+h4{
+    background: var(--yellow);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.search .searchicon {
+    line-height: 50px;
+    padding-left: 10px;
+    color:var(--yellow);
+}
+.search .searchicon:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.sidebar__content{
+    padding-bottom:20px;
+}
+.sidebar__content ul{
+    list-style-type: none;
+}
+.sidebar__content ul li img{
+    height: 100px;
+    width: 250px;
+    display: block;
+    border: var(--white)solid 1px;
+    /* margin: 10px 0; */
+}
+.sidebar__content ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: 500;
+}
+.sidebar__content ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+#footer{
+    height: 100px;
+    width: 1000px;
+    background:var(--black);
+    float: left;
+    align-items: center;
+}
+#footer img{
+    height: 80px;
+    width: 600px;
+    /* padding: 0 250px; ảnh hưởng kish thước ảnh */
+    margin: 15px 200px;
+}

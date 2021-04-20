@@ -1,0 +1,19 @@
+#menu{
+    padding: 10px;
+    background: rgb(223, 116, 116);
+    color:black;
+    width: 700px;
+    height: 350px;
+}
+h2{
+    text-align: center;
+}
+
+h4{
+    margin: 15px;
+    color: brown;
+}
+#x1{
+   text-decoration: overline;
+   color: brown;
+}

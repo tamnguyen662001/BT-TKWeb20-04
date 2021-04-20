@@ -1,0 +1,23 @@
+#menu{
+    margin: 30px;
+    background: yellow;
+    width: 700px;
+    height: 250px;
+    border: red solid 2px;
+    color: blue;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+h4{
+    color:black;
+}
+#menu2{
+    margin: 30px;
+    background: yellow;
+    width: 500px;
+    height: 200px;
+    border: red solid 2px;
+    color: blue;
+}

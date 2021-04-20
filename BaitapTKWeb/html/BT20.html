@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   
+    
+   
+</head>
+<body >
+
+    
+
+
+    <div id="radiobutton">
+        <h1>Radio Alert</h1>
+        <input type="radio" name="value" onclick="function1()"/><span id="sp1">1</span>
+        <input type="radio" name="value" onclick="function2()"/> <span id="sp2">2</span>
+        <input type="radio" name="value" onclick="function3()"/> <span id="sp3">3</span>
+    </div>
+    
+
+
+
+
+    <div id="buttonmessage">
+        <h1>Button Alert</h1>
+        <button id="btn" onclick="function4()">Message</button>
+    </div>
+
+
+
+
+
+    <div id="buttonback">
+        <h1>Message Box</h1>
+        <button id="btn" onclick="function5()">Back</button>
+    </div>
+
+
+
+
+
+    <div id="buttonlink">
+        <h1>Button link</h1>
+       <a href="" onclick=function6()>Trường Đại học Nha Trang</a>
+    </div>
+
+    
+
+
+    <h3 id="time"> Ngày giờ hệ thống</h3>
+    <script>
+         D = new  Date();
+        var now = " Hôm nay : Ngày "+D.getDate()+" Tháng "+ (parseInt(D.getMonth())+1) +" Năm "+D.getFullYear()+
+        " Bây giờ là : "+ D.getHours()+" giờ "+ D.getMinutes()+ " phút." ;
+        document.getElementById("time").innerHTML = now;
+    </script>
+
+
+
+
+
+
+
+    <div id="div2">
+        <input type="text" id="ip1" size="5px">
+        <input type="text" id="ip2" size="5px">
+        
+        <button id="btn2" onclick="calc()">Cộng</button>
+        <button id="btn3" onclick="calt()">Trừ</button>
+        <!-- <input type="reset" name="Reset" value=" Xóa"> -->
+        <button type="reset">Xóa</button>
+    </div><br>
+
+<div class="calculator">
+    <h3>Calculator</h3>
+    Number 1 <input id="num1" type="text" name=""><br><br>
+    Number 1 <input id="num2" type="text" name="">
+    <br><br>
+    <select name="" id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <br><br>
+    <button onclick="myfunction()">Calc</button>
+    Resutl  <input id="resutl" type="text" name="">
+    
+</div>
+
+<script type="text/javascript" src="../js/BT20.js"></script>
+</body>
+
+</html>

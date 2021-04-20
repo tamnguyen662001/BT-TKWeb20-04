@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.grid{
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f0ede9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    height: 120px;
+    background: linear-gradient(0,#1fe6b8, #1dc7e7);
+    width: auto;
+}
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    padding: 30px;
+}
+header img{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    background:lightgoldenrodyellow ;
+    height: 730px;
+}
+.mainbody{
+    width: 60%;
+    height: 730px;
+    background:#fff;
+    float: left;
+}
+.contain{
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+.leftsidebody{
+    padding: 10px 0;
+}
+.leftside{
+    width: 20%;
+    height: 730px;
+
+    float: left;
+    font-size: 1rem;
+    font-weight: 200;
+
+    background:#f2f2f2 ;
+    display: block;
+}
+.title{
+    padding: 10px;
+    text-align: center;
+    background:#f2f2f2 ;
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    padding: 10px;
+    text-align: center;
+    border-top:white solid 2px;
+}
+.link{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.list li:hover{
+    background:cyan;
+    transition: linear 0.3s;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.rightside{
+    width: 20%;
+    height: 730px;
+    float: right;
+    background: #f2f2f2;
+}
+.photo{
+    padding: 200px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 50px;
+    width: auto;
+    background: linear-gradient(0,#1fe6b8, #1dc7e7);
+}
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: black;
+}

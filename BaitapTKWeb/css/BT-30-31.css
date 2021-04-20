@@ -1,0 +1,79 @@
+body{
+	background-color: white;
+	font-family: sans-serif;
+}
+fieldset{
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: solid 2px #fc8860 ;
+}
+legend{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.pass{
+	width: 300px;
+    margin-bottom: 30px;
+	border:1px solid #fc8860 ;
+	border-radius: 10px;
+    margin:10px auto;
+}
+.login input{
+	padding-left: 10px;
+	border: none;
+	outline: none;
+    line-height: 50px;
+    font-size: 1.1rem;
+    border-radius: 10px;    
+}
+
+button{
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	border:none;
+    outline: none;
+	background: linear-gradient(135deg, #fc8860 0%,#ffcc6f 100%);
+	color: white;
+    font-size: 1.1rem;
+    margin: 10px 50px;
+    font-weight: 700;
+}
+button:hover{
+	opacity: 0.8;
+    transition: ease .3s;
+    
+}
+.fa{
+    line-height: 50px !important;
+    margin-left: 50px;
+}
+.eye{
+	position: absolute;
+}
+#hide1{
+	display: none;
+}   
+
+
+
+
+.save-data input{
+    margin-left: 50px;
+    width: 285px;
+	padding-left: 10px;
+	border: solid 1px #fc8860;
+	outline: none;
+    line-height: 50px;
+    font-size: 1.1rem;
+    border-radius: 10px;    
+}
+textarea{
+    border:none;
+    font-size: 1.5rem;
+}
+
+p{
+    padding-left: 200px !important;
+}

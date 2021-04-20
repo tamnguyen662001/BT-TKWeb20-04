@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | BT29</title>
+
+</head>
+<body>
+   <div class="BT29" align="center">
+    <form action="#" method="post" name="myForm" onsubmit="return validateForm()">
+        <table bgcolor="#DDDDDD" id="formdangky" style="width:400px;padding:20px;font-size: 1.2rem;">
+        <tbody>
+        <tr>
+        <td class="login">Username</td>
+        <td ><input name="name" type="text" id="false1" style="background-color: white"/></td>
+        </tr>
+        <tr>
+        <td class="login">Password</td>
+        <td><input name="pw" type="password"  id="false2" style="background-color: white"/></td>
+        </tr>
+        <tr>
+        <td class="login">Password again</td>
+        <td><input maxlength="16/"type="password" name="pw1"  id="false3" style="background-color: white"/></td>
+        </tr>
+        <td></td>
+        <td><input name="Submit" type="button" onclick="validateForm()" value="Submit" /></td>
+        </tbody>
+        </table>
+    </form>
+   </div>
+    <script src="../js/BT29.js"></script>
+</body>
+</html>

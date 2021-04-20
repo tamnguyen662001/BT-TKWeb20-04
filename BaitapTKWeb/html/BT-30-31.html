@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show hide password | BT30 </title>
+	<script language="javascript" type="text/javascript" 
+	src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js">
+	</script>
+
+	<link rel="stylesheet" href="../css/BT-30-31.css">
+	<link rel="stylesheet" href="/fontawesome/css/all.min.css">
+	<script src="../js/BT30-31.js"></script>
+</head>
+<body>
+<fieldset>
+	<legend>
+		Login Password
+	</legend>
+	<div class="login">
+		<div class="pass">
+			<input id="myInput" type="password" placeholder="Enter password">
+			<span class="eye" onclick="myfunction()">
+				<i class="fa fa-eye" id="hide1"></i>
+				<i class="fa fa-eye-slash" id="hide2"></i>
+			</span>
+		</div>		
+		<button onclick="check()">Login</button>
+		<button onclick="reset()">Reset</button>
+	</div>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Input data</legend>
+    <div class="save-data">
+        <input type="text" id="input-data">
+        <button id="savedata" onclick="save()">Save</button>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Info data</legend>
+    <div>
+        <textarea name="" id="info-data" cols="30" rows="7" style="outline: none; resize: none;"></textarea>
+    </div>
+</fieldset>
+<br>
+
+</body>
